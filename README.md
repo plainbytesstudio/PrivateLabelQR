@@ -34,6 +34,24 @@ Your QR content, imported spreadsheets, and exported files stay on your local ma
 
 ---
 
+## 🛡️ Security Verified
+
+As an independent developer project, this application is **not digitally signed** with an EV certificate. However, the release binary has been scanned and verified clean by all major antivirus engines worldwide.
+
+<p align="center">
+  <strong>VirusTotal Result: 0 / 68 — Clean</strong><br/>
+  <sub>Verified by Microsoft Defender, Kaspersky, BitDefender, Norton, ESET, Malwarebytes, Avast, and 65+ other engines.</sub>
+</p>
+
+<p align="center">
+  <a href="https://www.virustotal.com/gui/file/044143f5beb6ebb113d6fc730ce3fb959d0f38b700b06ef3c0a891a9914092e3">
+    <img src="virustotal.png" alt="VirusTotal 0/72 Clean" width="700"/>
+  </a><br/>
+  <sub>Click the image to view the full VirusTotal report</sub>
+</p>
+
+---
+
 ## 📸 Screenshots
 
 <p align="center">
@@ -98,9 +116,17 @@ Your QR content, imported spreadsheets, and exported files stay on your local ma
 - Windows 10 / 11 (x64)
 - [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) — download the latest **x64** installer from Microsoft if not already installed
 
-### Download
+### Download & Run
 
-Download the latest `PrivateLabelQR.exe` from the Releases page — single file, no installer needed.
+1. Download the latest **`PrivateLabelQR-v1.0.2-win-x64.zip`** from the Releases page
+2. Extract the ZIP to a local folder
+3. Run **`PrivateLabelQR.exe`**
+
+> **💡 Windows SmartScreen Notice**
+>
+> Since this app is from an independent developer and is not digitally signed, Windows SmartScreen may show a warning on first launch. This is expected behavior for unsigned software — it does not indicate a security risk.
+>
+> To proceed: click **"More info"** → then click **"Run anyway"**.
 
 <p align="center">
   <img src="demo-drag-drop.webp" alt="Drag & Drop Demo" width="720"/><br/>
