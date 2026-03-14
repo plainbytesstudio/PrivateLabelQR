@@ -39,13 +39,13 @@ Your QR content, imported spreadsheets, and exported files stay on your local ma
 As an independent developer project, this application is **not digitally signed** with an EV certificate. However, the release binary has been scanned and verified clean by all major antivirus engines worldwide.
 
 <p align="center">
-  <strong>VirusTotal Result: 0 / 68 — Clean</strong><br/>
+  <strong>VirusTotal Result: 0 / 65 — Clean</strong><br/>
   <sub>Verified by Microsoft Defender, Kaspersky, BitDefender, Norton, ESET, Malwarebytes, Avast, and 65+ other engines.</sub>
 </p>
 
 <p align="center">
-  <a href="https://www.virustotal.com/gui/file/044143f5beb6ebb113d6fc730ce3fb959d0f38b700b06ef3c0a891a9914092e3">
-    <img src="virustotal.png" alt="VirusTotal 0/72 Clean" width="700"/>
+  <a href="https://www.virustotal.com/gui/file/b73a636ff9db67a0a53d00911c639b0527eab7e85eb54a3f70cda6bbd9136bfb">
+    <img src="virustotal.png" alt="VirusTotal 0/65 Clean" width="700"/>
   </a><br/>
   <sub>Click the image to view the full VirusTotal report</sub>
 </p>
@@ -114,7 +114,7 @@ As an independent developer project, this application is **not digitally signed*
 ### Prerequisites
 
 - Windows 10 / 11 (x64)
-- [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) — download the latest **x64** installer from Microsoft if not already installed
+- [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.25-windows-x64-installer?cid=getdotnetcore) — download the latest **x64** installer from Microsoft if not already installed
 
 ### Download & Run
 
