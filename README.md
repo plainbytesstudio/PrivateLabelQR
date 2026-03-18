@@ -5,14 +5,14 @@
 <h1 align="center">Generate 1000+ QR & Barcode Labels from Excel in Seconds</h1>
 
 <p align="center">
-  <strong>Generate QR & Barcode labels from Excel in seconds — 100% offline.</strong><br/>
-  No internet. No account. No subscription. Just drag, drop, and print.
+  <strong>Forever free. No subscriptions. No watermarks. No limits.</strong><br/>
+  Import Excel, generate labels, export PDF — 100% offline.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-blue?logo=windows" alt="Platform"/>
   <img src="https://img.shields.io/badge/100%25-Offline-brightgreen?logo=shield" alt="100% Offline"/>
-  <img src="https://img.shields.io/badge/free-download-orange" alt="Free Download"/>
+  <img src="https://img.shields.io/badge/license-Freeware-brightgreen" alt="License: Freeware"/>
 </p>
 
 ---
@@ -49,7 +49,7 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
 ## What you can do
 
 - **Generate QR codes & barcodes** — QR Code, Code 128, EAN-13 (auto check-digit)
-- **Import Excel / CSV and batch-generate labels** — drag-drop, map columns, done
+- **Unlimited batch labels from Excel / CSV** — drag-drop, map columns, done
 - **Export print-ready PDF** — Avery 5160, 5163, L7160, or 2"×1" thermal labels
 - **Export single labels** — PNG, JPG, SVG, or EPS
 - **Customize colors & branding** — foreground, background, logo overlay
@@ -64,35 +64,16 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
 |---|---|---|---|
 | Privacy | Data uploaded to servers | Varies | **Fully offline — data stays on your machine** |
 | Bulk from Excel | Limited or paid | Complex setup | **Drag-drop, one-click export** |
-| Cost | Free with watermarks | $50–$300/year | **Free** |
+| Cost | Free with watermarks | $50–$300/year | **Free forever** |
 | Code types | QR only | Multiple | **QR, Code 128, EAN-13** |
 | Setup | Browser-based | 30+ min install | **Unzip and run** |
 | Internet | Required | Sometimes | **Never** |
 
 ---
 
-## Free vs Pro
-
-> **🚀 Limited Time Offer:** To celebrate our launch, **v1.0.2 is fully unlocked for free!** No watermarks, no limits. Enjoy professional tools for $0.
-
-| | **v1.0.2 (Limited Free)** | **Pro — $19.99 (One-time)** |
-|---|---|---|
-| Batch export | **Unlimited** | **Unlimited** |
-| PDF output | **No watermark** | **No watermark** |
-| Logo on QR | **Supported** | **Supported** |
-| Single label export | All formats | All formats |
-| Label templates | All templates | All templates |
-| Offline & private | Yes | Yes |
-
-> Current version is fully functional. We only ask for your feedback or a ⭐ on GitHub!
->
-> Need a permanent Pro license? [Visit Official Website](https://plainbytesstudio.github.io/PrivateLabelQR)
-
----
-
 ## Download
 
-### [Download v1.0.2 Free — All Pro Features Included](https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest)
+### [Download v1.0.2 — Latest Stable Release](https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest)
 
 1. Download **PrivateLabelQR-v1.0.2-win-x64.zip**
 2. Extract to a local folder
