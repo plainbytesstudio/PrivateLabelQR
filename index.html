@@ -333,14 +333,15 @@
     /* ── Screenshots ── */
     .screenshot-hero {
       margin-top: 48px;
-      border-radius: 16px;
+      border-radius: 12px;
       overflow: hidden;
-      border: 1px solid var(--border-card);
+      border: 1px solid rgba(255,255,255,0.1);
       background: var(--bg-card);
-      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4), 0 0 60px rgba(0, 122, 255, 0.06);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.5), 0 8px 24px rgba(0,0,0,0.4), 0 0 60px rgba(0,122,255,0.06);
     }
 
-    .screenshot-hero img {
+    .screenshot-hero img,
+    .screenshot-hero video {
       width: 100%;
       display: block;
     }
@@ -646,6 +647,13 @@
       border-radius: 10px;
     }
 
+    .nav-lang {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 400;
+      letter-spacing: 0.3px;
+    }
+
     /* ── Footer ── */
     footer {
       border-top: 1px solid rgba(255,255,255,0.06);
@@ -713,6 +721,7 @@
       .comparison th, .comparison td { padding: 10px 12px; }
       .footer-grid { grid-template-columns: 1fr; gap: 32px; }
       .navbar-brand span { display: none; }
+      .nav-lang { display: none; }
     }
 
     @media (max-width: 480px) {
@@ -723,6 +732,7 @@
       .use-case { width: 100%; }
       .grid-3 { grid-template-columns: 1fr; }
       .navbar-links a.nav-text { display: none; }
+      .nav-lang { display: none; }
     }
   </style>
 </head>
@@ -738,6 +748,7 @@
       </a>
       <nav class="navbar-links">
         <a href="https://github.com/plainbytesstudio/PrivateLabelQR" class="nav-text">GitHub</a>
+        <span class="nav-lang">EN · 中文 · DE · FR · JP</span>
         <a href="https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest" class="btn btn-primary">Download Free</a>
       </nav>
     </div>
@@ -777,11 +788,14 @@
           <span>✔ 100% Offline</span>
           <span>✔ No Tracking</span>
           <span>✔ No Uploads</span>
+          <span>✔ 5 Languages</span>
         </div>
       </div>
 
       <div class="screenshot-hero">
-        <img src="assets/screenshot-bulk.jpg" alt="Bulk Mode — import Excel, export label PDF" />
+        <video autoplay muted loop playsinline poster="assets/screenshot-bulk.jpg">
+          <source src="assets/demo.mp4" type="video/mp4" />
+        </video>
         <div class="caption">Import Excel, map columns, and export print-ready label sheets</div>
       </div>
     </div>
@@ -874,7 +888,7 @@
         <li><span class="check">✓</span>Export as PDF, PNG, JPG, SVG, EPS</li>
         <li><span class="check">✓</span>Custom foreground & background colors</li>
         <li><span class="check">✓</span>Logo overlay on QR codes</li>
-        <li><span class="check">✓</span>5 languages — EN, 中文, DE, FR, 日本語</li>
+        <li><span class="check">✓</span>Multi-language interface — native support for English, Chinese, German, French, and Japanese</li>
         <li><span class="check">✓</span>100% offline — zero network activity</li>
       </ul>
     </div>
@@ -925,6 +939,12 @@
             <td>Browser-based</td>
             <td>30+ min install</td>
             <td>Unzip and run</td>
+          </tr>
+          <tr>
+            <td>🌐 Language</td>
+            <td>English only</td>
+            <td>Varies</td>
+            <td>5 languages</td>
           </tr>
           <tr>
             <td>Internet</td>
