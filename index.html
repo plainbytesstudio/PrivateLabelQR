@@ -193,7 +193,11 @@
     .workflow .arrow { color: var(--primary); font-weight: 600; }
 
     /* ── Buttons ── */
-    .cta { margin-top: 40px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .cta { margin-top: 40px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; align-items: center; }
+
+    .store-badge-link { display: inline-flex; align-items: center; transition: opacity 0.2s; }
+    .store-badge-link:hover { opacity: 0.85; }
+    .store-badge { height: 52px; }
 
     .btn {
       display: inline-flex;
@@ -535,6 +539,68 @@
 
     .pricing-card .btn { width: 100%; justify-content: center; }
 
+    /* ── Download grid ── */
+    .download-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      max-width: 760px;
+      margin: 32px auto 0;
+      text-align: left;
+    }
+
+    .download-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: 16px;
+      padding: 32px;
+      position: relative;
+    }
+
+    .download-card-primary {
+      border-color: rgba(0, 122, 255, 0.3);
+    }
+
+    .download-card h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .download-label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--primary);
+      background: rgba(0, 122, 255, 0.1);
+      padding: 3px 10px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+
+    .download-card:not(.download-card-primary) .download-label {
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .download-desc {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 20px;
+    }
+
+    .download-steps p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .download-steps p strong {
+      color: var(--text);
+    }
+
     /* ── Trust row ── */
     .trust-row {
       display: flex;
@@ -720,6 +786,7 @@
       .comparison { font-size: 13px; }
       .comparison th, .comparison td { padding: 10px 12px; }
       .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+      .download-grid { grid-template-columns: 1fr; }
       .navbar-brand span { display: none; }
       .nav-lang { display: none; }
     }
@@ -749,6 +816,7 @@
       <nav class="navbar-links">
         <a href="https://github.com/plainbytesstudio/PrivateLabelQR" class="nav-text">GitHub</a>
         <span class="nav-lang">English · Deutsch · Français · 日本語 · 简体中文</span>
+        <a href="https://apps.microsoft.com/detail/9P5H2N9LGQMJ" class="nav-text">Microsoft Store</a>
         <a href="https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest" class="btn btn-primary">Download Free</a>
       </nav>
     </div>
@@ -779,8 +847,8 @@
           <a href="https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest" class="btn btn-primary">
             Download Free (No Signup)
           </a>
-          <a href="https://github.com/plainbytesstudio/PrivateLabelQR" class="btn btn-outline">
-            View on GitHub
+          <a href="https://apps.microsoft.com/detail/9NFNDJ4DHQG1" class="store-badge-link">
+            <img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft Store" class="store-badge" />
           </a>
         </div>
 
@@ -789,6 +857,7 @@
           <span>✔ No Tracking</span>
           <span>✔ No Uploads</span>
           <span>✔ 5 Languages</span>
+          <span>✔ Microsoft Store Certified</span>
         </div>
       </div>
 
@@ -952,6 +1021,12 @@
             <td>Sometimes</td>
             <td>Never</td>
           </tr>
+          <tr>
+            <td>📦 Distribution</td>
+            <td>Browser only</td>
+            <td>Installer</td>
+            <td>Microsoft Store & Portable ZIP</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -1037,29 +1112,42 @@
   <section class="section-alt">
     <div class="container center">
       <h2>Get started in 30 seconds</h2>
-      <p class="subtitle">Download. Unzip. Run. That's it.</p>
+      <p class="subtitle">Choose your preferred installation method.</p>
 
-      <div style="display: inline-block; text-align: left; background: var(--bg-card); border: 1px solid var(--border-card); border-radius: 16px; padding: 32px 40px; margin-bottom: 24px;">
-        <p style="margin-bottom: 12px; font-size: 15px; color: var(--text-secondary);">
-          <strong style="color: var(--text);">1.</strong> Download
-          <a href="https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest"
-            style="color: var(--primary); text-decoration: none; font-weight: 600;">PrivateLabelQR-v1.0.2-win-x64.zip</a>
-        </p>
-        <p style="margin-bottom: 12px; font-size: 15px; color: var(--text-secondary);">
-          <strong style="color: var(--text);">2.</strong> Extract to a local folder
-        </p>
-        <p style="margin-bottom: 12px; font-size: 15px; color: var(--text-secondary);">
-          <strong style="color: var(--text);">3.</strong> Run <strong style="color: var(--text);">PrivateLabelQR.exe</strong>
-        </p>
-        <p style="margin-bottom: 0; font-size: 13px; color: var(--text-muted);">
-          Requires Windows 10/11 (x64) +
-          <a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.25-windows-x64-installer"
-            style="color: var(--text-muted); text-decoration: underline;">.NET 8 Desktop Runtime</a>
-        </p>
+      <div class="download-grid">
+        <!-- Microsoft Store -->
+        <div class="download-card download-card-primary">
+          <span class="download-label">Recommended</span>
+          <h3>Microsoft Store</h3>
+          <p class="download-desc">Auto-updates · Verified by Microsoft · Seamless install</p>
+          <div class="download-steps">
+            <p><strong>1.</strong> Click the badge below</p>
+            <p><strong>2.</strong> Install from Microsoft Store</p>
+            <p><strong>3.</strong> Launch from Start Menu</p>
+          </div>
+          <a href="https://apps.microsoft.com/detail/9P5H2N9LGQMJ" class="store-badge-link" style="margin-top: 16px;">
+            <img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft Store" class="store-badge" />
+          </a>
+        </div>
+
+        <!-- GitHub Portable -->
+        <div class="download-card">
+          <span class="download-label">Portable</span>
+          <h3>GitHub ZIP</h3>
+          <p class="download-desc">No installation · Single ZIP · USB ready</p>
+          <div class="download-steps">
+            <p><strong>1.</strong> Download <a href="https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest" style="color: var(--primary); text-decoration: none; font-weight: 600;">.zip</a></p>
+            <p><strong>2.</strong> Extract to a local folder</p>
+            <p><strong>3.</strong> Run <strong>PrivateLabelQR.exe</strong></p>
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); margin-top: 16px;">
+            Requires <a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.25-windows-x64-installer" style="color: var(--text-muted); text-decoration: underline;">.NET 8 Desktop Runtime</a>
+          </p>
+        </div>
       </div>
 
-      <p style="font-size: 13px; color: var(--text-muted); max-width: 560px; margin: 0 auto;">
-        Windows SmartScreen may warn on first launch (unsigned app). Click <strong>"More info"</strong> &rarr; <strong>"Run anyway"</strong>.
+      <p style="font-size: 13px; color: var(--text-muted); max-width: 620px; margin: 24px auto 0;">
+        The portable version is unsigned — Windows SmartScreen may warn on first launch. Click <strong>"More info"</strong> → <strong>"Run anyway"</strong>. The Store version has no such warning.
       </p>
     </div>
   </section>
