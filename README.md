@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-blue?logo=windows" alt="Platform"/>
   <img src="https://img.shields.io/badge/100%25-Offline-brightgreen?logo=shield" alt="100% Offline"/>
   <img src="https://img.shields.io/badge/license-Freeware-brightgreen" alt="License: Freeware"/>
+  <img src="https://img.shields.io/badge/Microsoft_Store-Verified-0078D4?logo=microsoft&logoColor=white" alt="Microsoft Store Verified"/>
 </p>
 
 ---
@@ -73,7 +74,19 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
 
 ## Download
 
-### [Download v1.0.2 — Latest Stable Release](https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest)
+### Option A — Microsoft Store (Recommended)
+
+<a href="https://apps.microsoft.com/detail/9NFNDJ4DHQG1">
+  <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="48" alt="Get it from Microsoft Store"/>
+</a>
+
+- Auto-updates — always on the latest version
+- Verified by Microsoft — passes security & quality audits
+- Zero-click installation — no ZIP, no .NET setup
+
+### Option B — GitHub Release (Portable)
+
+**[Download v1.0.2 — Portable ZIP](https://github.com/plainbytesstudio/PrivateLabelQR/releases/latest)**
 
 1. Download **PrivateLabelQR-v1.0.2-win-x64.zip**
 2. Extract to a local folder
@@ -81,7 +94,7 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
 
 **Requires:** Windows 10/11 (x64) + [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.25-windows-x64-installer?cid=getdotnetcore)
 
-> **SmartScreen notice:** Windows may warn on first launch (unsigned app). Click **"More info"** → **"Run anyway"**.
+> **SmartScreen notice:** The GitHub portable version is unsigned. Windows may warn on first launch — click **"More info"** → **"Run anyway"**. The Microsoft Store version does not have this issue.
 
 ---
 
@@ -96,6 +109,7 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
   <sub>Click to view the full VirusTotal report</sub>
 </p>
 
+- Officially certified and available on the **Microsoft Store**, passing rigorous security and quality audits
 - No internet connection (no tracking, no telemetry)
 - All files processed and saved locally
 - No background services — silent when closed
