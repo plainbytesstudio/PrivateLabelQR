@@ -131,3 +131,4 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
   <a href="https://plainbytesstudio.github.io/products/PrivateLabelQR"><strong>Official Website</strong></a> &nbsp;·&nbsp;
   <a href="mailto:plainbytes.studio@gmail.com"><strong>Contact</strong></a>
 </p>
+
