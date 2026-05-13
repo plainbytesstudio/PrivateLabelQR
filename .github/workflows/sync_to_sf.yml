@@ -27,4 +27,4 @@ jobs:
           git remote remove sf || true          
           git remote add sf "ssh://julian2026@git.code.sf.net/p/privatelabelqr/code"
           # 强制推送，确保两边内容严格一致
-          git push sf HEAD:master --force
+          git push sf HEAD:main --force
