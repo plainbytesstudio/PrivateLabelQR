@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[assets/PrivateLabelQR.png](https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/PrivateLabelQR.png)" alt="Private Label QR" width="120"/>
+  <img src="https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/PrivateLabelQR.png" alt="Private Label QR" width="120"/>
 </p>
 
 <h1 align="center">Generate 1000+ QR & Barcode Labels from Excel in Seconds</h1>
