@@ -24,6 +24,6 @@ jobs:
       - name: Push to SourceForge
         run: |
           # 请修改下方这一行：改为你第四步获取的 SF 地址
-          git remote add sf ssh://julian2026@git.code.sf.net/p/privatelabelqr/code privatelabelqr-code
+          git remote add sf "ssh://julian2026@git.code.sf.net/p/privatelabelqr/code privatelabelqr-code"
           # 强制推送，确保两边内容严格一致
           git push sf main:master --force
