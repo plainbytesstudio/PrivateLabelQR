@@ -25,6 +25,6 @@ jobs:
         run: |
           # 请修改下方这一行：改为你第四步获取的 SF 地址
           git remote remove sf || true          
-          git remote add sf "ssh://julian2026@git.code.sf.net/p/privatelabelqr/code privatelabelqr-code"
+          git remote add sf "ssh://julian2026@git.code.sf.net/p/privatelabelqr/code"
           # 强制推送，确保两边内容严格一致
           git push sf HEAD:master --force
