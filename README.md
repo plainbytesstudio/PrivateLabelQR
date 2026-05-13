@@ -24,12 +24,12 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
 > **Workflow:** Import Excel → Generate QR / Barcode → Export PDF → Print
 
 <p align="center">
-  <img src="[assets/screenshot-single.jpg](https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/screenshot-single.jpg)" alt="Single Mode" width="800"/><br/>
+  <img src="https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/screenshot-single.jpg" alt="Single Mode" width="800"/><br/>
   <sub>Create a single QR code or barcode with live preview and custom colors</sub>
 </p>
 
 <p align="center">
-  <img src="[assets/screenshot-bulk.jpg](https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/screenshot-bulk.jpg)" alt="Bulk Mode" width="800"/><br/>
+  <img src="https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/screenshot-bulk.jpg" alt="Bulk Mode" width="800"/><br/>
   <sub>Import hundreds of rows from Excel — export a print-ready label PDF in one click</sub>
 </p>
 
@@ -104,7 +104,7 @@ Private Label QR runs 100% on your machine. Import an Excel or CSV file, choose 
 
 <p align="center">
   <a href="https://www.virustotal.com/gui/file/b73a636ff9db67a0a53d00911c639b0527eab7e85eb54a3f70cda6bbd9136bfb">
-    <img src="[assets/virustotal.png](https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/virustotal.png)" alt="VirusTotal 0/65 Clean" width="700"/>
+    <img src="https://raw.githubusercontent.com/plainbytesstudio/PrivateLabelQR/refs/heads/main/assets/virustotal.png" alt="VirusTotal 0/65 Clean" width="700"/>
   </a><br/>
   <sub>Click to view the full VirusTotal report</sub>
 </p>
